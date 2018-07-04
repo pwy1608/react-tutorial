@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactInfo from './ContactInfo';
+import './Contact.css'
 
 export default class Contact extends React.Component {
     constructor (props) {
@@ -45,7 +46,7 @@ export default class Contact extends React.Component {
         };
 
         return (
-            <div>
+            <div className="centered">
                 <h1>Contacts</h1>
                 <input
                     name="keyword"
